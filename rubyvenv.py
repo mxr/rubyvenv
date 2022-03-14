@@ -4,7 +4,6 @@ from __future__ import unicode_literals
 import argparse
 import collections
 import contextlib
-import distutils.spawn
 import functools
 import gzip
 import io
@@ -16,6 +15,7 @@ import tarfile
 import tempfile
 
 import distro
+import distutils.spawn
 import six
 
 
